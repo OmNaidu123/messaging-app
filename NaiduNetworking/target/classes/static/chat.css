@@ -1,0 +1,105 @@
+body {
+    background-color: black;
+    margin-bottom: 50px;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    max-width: 60%;
+    margin: 3px 0;
+    padding: 3px 10px;
+    border-radius: 8px;
+    line-height: 1.4;
+}
+p {
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+    color: white;
+}
+.self-message {
+    align-self: flex-end;
+    background-color: #EA7C23;
+    text-align: right;
+}
+
+.other-message {
+    align-self: flex-start;
+    background-color: #970f2a;
+    text-align: left;
+}
+ul {
+    display: flex;
+    flex-direction: column;
+}
+.input-center {
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    z-index: 10;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 40px;
+    background-color: #393939;
+    padding: 5px;
+    box-sizing: border-box;
+}
+.msg-input{
+    margin-top: 15px;
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.input-box {
+    width: 90%;
+    background: none;
+    border: none;
+    height: 100%;
+    color: white;
+    font-family: Arial;
+}
+.send-msg {
+    background: none;
+    border: none;
+    padding: 0;
+    margin-left: 10px;
+    cursor: pointer;
+    transition: opacity 0.15s;
+}
+.send-msg:hover {
+    opacity: 0.8;
+}
+.send-msg:active {
+    opacity: 0.5;
+}
+.logo-icon {
+    height: 18px;
+    border-radius: 9px;
+}
+.reload {
+    margin-top: 15px;
+}
+.reload-button {
+    background-color: #970f2a;
+    color: white;
+    font-family: Arial;
+    border: none;
+    border-radius: 20px;
+    padding: 4px 8px;
+    cursor: pointer;
+}
+.reload-button:hover {
+    opacity: 0.8;
+}
+.reload-button:active {
+    opacity: 0.5;
+}

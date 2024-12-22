@@ -1,0 +1,48 @@
+body {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+form{
+    margin-top: 12%;
+    margin-bottom: 12%;
+}
+.logo{
+    margin-top: 30%;
+    height: 200px;
+}
+.logo-icon {
+    height: 100%;
+}
+.logpoint {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    border-width: 2px;
+    border-radius: 10px;
+    border-color: #EA7C23;
+    border-style: solid;
+}
+.log-button {
+    color: white;
+    font-family: Arial;
+    font-weight: bold;
+    background-color: #EA7C23;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: none;
+    border-radius: 60px;
+    cursor: pointer;
+    transition: opacity 0.15ms;
+}
+.log-button:hover{
+    opacity: 0.8;
+}
+.log-button:active{
+    opacity: 0.5;
+}
